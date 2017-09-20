@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.fcc.college"
+        id          = "com.afes.event"
         versionCode = "4"
 		CFBundleVersion = "4.0.0"
         version     = "4.0.0" >
@@ -175,9 +175,9 @@
 
 	</platform>
 
-    <name>Forman Christian College</name>
+    <name>AFES</name>
 	<description>
-         Forman Christian College  </description>
+         AFES </description>
 	<author href="http://sentimentsexpress.com/" email="nidobda_92@hotmail.com">
         Naveed Aziz
     </author>
