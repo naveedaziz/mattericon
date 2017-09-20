@@ -1,0 +1,44 @@
+
+<md-card layout="column" layout-align="bottom left" class="customHeader" flex="100">
+   <h1>AFES 2017</h1><br>
+   <p>It is a great honor and distinct privilege for us to announce that Myanmar Society of Endocrinology and Metabolism is hosting
+   the 19th ASEAN Federation of Endocrine Societies Congress 2017 (AFES2017). It will be held from 9 – 12 November 2017 in
+   Yangon, Myanmar.</p>
+
+   <!--<md-fab-toolbar  md-open="false" count="3" md-direction="right" class="md-right">
+      <md-fab-trigger class="md-right">
+         <md-button aria-label="menu" class="md-fab md-secondary">
+            <md-icon md-svg-src="img/icons/menu.svg"></md-icon>
+         </md-button>
+      </md-fab-trigger>
+
+      <md-toolbar>
+         <md-fab-actions class="md-toolbar-tools">
+            <md-button aria-label="comment" class="md-icon-button">
+               <md-icon md-svg-src="img/icons/ic_comment_24px.svg"></md-icon>
+            </md-button>
+            <md-button aria-label="label" class="md-icon-button">
+               <md-icon md-svg-src="img/icons/ic_label_24px.svg"></md-icon>
+            </md-button>
+            <md-button aria-label="photo" class="md-icon-button">
+               <md-icon md-svg-src="img/icons/ic_photo_24px.svg"></md-icon>
+            </md-button>
+         </md-fab-actions>
+      </md-toolbar>
+   </md-fab-toolbar>-->
+
+</md-card>
+
+  
+   <md-grid-list md-cols="4"   md-row-height="4:4" md-gutter="4px"
+      md-gutter-gt-sm="4px">
+
+      <md-grid-tile ng-repeat="grid in app.grids" md-rowspan="2" md-colspan="2" 
+         ng-class="'darkBlue'" ng-click="app.openLink(grid.link,grid.params)">
+        
+         <img ng-src="img/home/{{grid.img}}.svg" width="50%" style="margin-top: -40px;">
+         <md-grid-tile-footer>
+            <h3>{{grid.name}}</h3>
+         </md-grid-tile-footer>
+      </md-grid-tile>
+   </md-grid-list>
