@@ -330,7 +330,7 @@ var app = angular.module('appCtrl', ['ngOrderObjectBy','jkAngularCarousel'])
 
          },
                      {
-            img: 'Boss', name: 'Organization Commitee',link:'organization', 
+            img: 'boss', name: 'Organization Commitee',link:'organization', 
                         
                      },
                      {
